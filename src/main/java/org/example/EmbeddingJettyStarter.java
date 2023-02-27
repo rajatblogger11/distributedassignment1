@@ -25,7 +25,7 @@ public class EmbeddingJettyStarter {
         int maxThreads = 100;
         int minThreads = 10;
         int idleTimeout = 120;
-        int port = 8080;
+        int port = 8081;
 
         QueuedThreadPool threadPool = 
         		new QueuedThreadPool(maxThreads, minThreads, idleTimeout);
